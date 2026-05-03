@@ -6,9 +6,9 @@ public class Player{
     private BufferedImage playerPic;
     private int tileIndex = 0;
     private int x, y, width, height;
-    public Player(BufferedImage pic){
+    public Player(BufferedImage pic, int startingTile){
         playerPic = pic;
-
+        tileIndex = startingTile;
         //setDrawInfo(0, 0, 100, 100);
     }
     

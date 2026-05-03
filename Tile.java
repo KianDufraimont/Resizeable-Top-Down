@@ -14,7 +14,7 @@ public class Tile extends JLabel{
         super(new ImageIcon(pic));
         number = index;
         image = pic;
-        this.setPreferredSize(new Dimension(80,80));
+        this.setPreferredSize(new Dimension(60,60));
         Tile temp = this;
         this.addComponentListener(new ComponentAdapter() {
             @Override
